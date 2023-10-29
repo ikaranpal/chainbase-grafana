@@ -6,6 +6,12 @@
 
 Grafana datasource plugin for the [Chainbase](https://chainbase.com/) SQL API.
 
+## Screenshots
+
+![Dashboard 1](src/images/screenshots/dashboard_1.webp)
+![Dashboard 2](src/images/screenshots/dashboard_2.webp)
+![Editor](src/images/screenshots/editor.webp)
+
 ## Build
 
 Build frontend and backend of the plugin.

@@ -24,6 +24,20 @@
       "small": "images/logo.svg",
       "large": "images/logo.svg"
     },
+    "screenshots": [
+      {
+        "name": "Dashboard 1",
+        "path": "images/screenshots/dashboard_1.webp"
+      },
+      {
+        "name": "Dashboard 2",
+        "path": "images/screenshots/dashboard_2.webp"
+      },
+      {
+        "name": "Editor",
+        "path": "images/screenshots/editor.webp"
+      }
+    ],
     "updated": "%TODAY%",
     "version": "%VERSION%"
   },
