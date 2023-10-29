@@ -161,7 +161,7 @@ func AppendRow(frame *data.Frame, columns []chainbase.DataWarehouseDataMeta, row
 						return NewInvalidValueError(column.Name, row[column.Name])
 					}
 
-					field.Append(uint16(value.Unix() / (60 * 60 * 24)))
+					field.Append(value)
 				default:
 					return NewUnsupportedTypeError(column.Name, column.Type)
 				}
