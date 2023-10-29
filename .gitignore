@@ -1,0 +1,13 @@
+# Editors
+.idea
+.vscode
+
+# Caches
+.parcel-cache
+node_modules
+
+# Builds
+/dist
+
+# Others
+.DS_Store

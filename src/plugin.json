@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Chainbase",
+  "id": "kallydev-chainbase-datasource",
+  "backend": true,
+  "executable": "gpx_chainbase",
+  "info": {
+    "author": {
+      "name": "KallyDev"
+    },
+    "description": "Grafana datasource plugin for the Chainbase SQL API",
+    "keywords": [
+      "chainbase",
+      "datasource"
+    ],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/kallydev/chainbase-grafana"
+      }
+    ],
+    "logos": {
+      "small": "images/logo.svg",
+      "large": "images/logo.svg"
+    },
+    "updated": "%TODAY%",
+    "version": "%VERSION%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.3"
+  }
+}
